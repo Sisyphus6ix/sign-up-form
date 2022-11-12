@@ -1,2 +1,6 @@
 # sign-up-form
-TOP Full-Stack JavaScript - Project #1
+This project is created for the purpose of learning and part of the "The Odin Project" [curriculum](https://theodinproject.com/).
+
+**Live preview:** [here]()
+
+### What I learned?
