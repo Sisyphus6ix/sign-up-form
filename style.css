@@ -15,7 +15,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     min-width: 40vw;
-    height: 100vh;
+    height: 104vh;
 }
 
     
@@ -47,15 +47,15 @@ img[src='TOPOdin.png']{
 
 .caption {
     background-color: rgb(240, 240, 240);
-    padding: 160px 200px 40px 40px;
+    padding: 100px 200px 40px 40px;
     font-weight: bold;
     font-size: 1.5rem;
-    height: 24.8%;
+    height: fit-content;
 }
 
 
 .form-container {
-    height: 22.1%;
+    height: fit-content;
 }
 
 
@@ -90,7 +90,7 @@ input:focus{
 }
 
 .footer {
-    height: 35%;
+    height: fit-content;
     background-color: rgb(240, 240, 240);
     box-shadow: 0 10px 30px -2px rgb(3, 3, 3);
     padding: 20px 40px;
