@@ -15,7 +15,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     min-width: 40vw;
-    height: 104vh;
+    min-height: 100vh;
 }
 
     
@@ -35,8 +35,6 @@ img[src='TOPOdin.png']{
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    /*   debug helper */
-    /*   border: solid red 3px; */
 }
     
 .image-container {
@@ -45,17 +43,23 @@ img[src='TOPOdin.png']{
     overflow: hidden;
 }
 
+.right-side {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
 .caption {
     background-color: rgb(240, 240, 240);
     padding: 100px 200px 40px 40px;
     font-weight: bold;
     font-size: 1.5rem;
-    height: fit-content;
+    flex: 1;
 }
 
 
 .form-container {
-    height: fit-content;
+    flex: 1;
 }
 
 
@@ -66,12 +70,13 @@ img[src='TOPOdin.png']{
 
 .form {
     display: grid;
-    max-width: fit-content;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr;;
+    grid-template-columns: repeat(1fr 1fr);
+    max-width: 550px;
     column-gap: 50px;
-    padding: 20px 40px;
-    /* border: solid red 3px; */
+}
+
+.name, .contact, .password {
+    display: flex;
 }
 
 .input {
@@ -90,11 +95,11 @@ input:focus{
 }
 
 .footer {
-    height: fit-content;
     background-color: rgb(240, 240, 240);
     box-shadow: 0 10px 30px -2px rgb(3, 3, 3);
     padding: 20px 40px;
     font-size: 1.3rem;
+    flex: 1;
 }
 
 button {
